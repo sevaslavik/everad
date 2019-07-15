@@ -1,0 +1,14 @@
+.logo {
+    position: relative;
+    display: inline-block;
+    width: 49px;
+    margin-right: 50px;
+    margin-left: 225px;
+    padding-top: 15px;
+
+    &__item {
+        position: absolute;
+        bottom: -10%;
+        right: -80%;
+    }
+}

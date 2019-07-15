@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    margin-bottom: 59px;
+    
+    &__title {
+        margin-right: 90px;
+        font-weight: 800;
+    }
+}

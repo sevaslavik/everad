@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="11" viewBox="0 0 330 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d2dce6;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="puls.svg" class="cls-1" d="M1115,2253h149.87l15.14,10,14.94-10H1445v1H1294.99l-14.8,10-15.21-10H1115v-1Z" transform="translate(-1115 -2253)"/>
+</svg>

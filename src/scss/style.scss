@@ -1,0 +1,28 @@
+// Imports
+
+//libs
+@import 'libs/bootstrap.scss';
+
+//variables
+@import 'variable';
+@import 'mixins';
+
+// Common
+@import 'common/general';
+
+// Elements
+@import 'elements/icons';
+@import 'elements/font-form';
+@import 'elements/burger';
+@import 'elements/logo';
+@import 'elements/nav';
+@import 'elements/description';
+@import 'elements/form-box';
+@import 'elements/price';
+@import 'elements/button';
+
+// Parts
+@import 'parts/banner';
+@import 'parts/header';
+@import 'parts/info';
+@import 'parts/media';

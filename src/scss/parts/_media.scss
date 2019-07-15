@@ -1,0 +1,67 @@
+//for iphon
+
+@media screen and (min-width: 375px) and (max-width: 768px)  {
+
+    .banner-image {
+        display: none;
+    }
+    /*
+    .banner__title {
+        font-size: 30px;
+    }
+
+    .banner__description {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    */
+    .header {
+        display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: flex-start;
+	    align-items: center;
+        align-content: stretch;
+        
+        &__title {
+            display: none;
+            margin: 20px 0;
+        }
+    }
+
+    .logo {
+        display: none;
+    }
+    
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        visibility: visible;
+    }
+
+    .save {
+        width: 360px;
+    }
+
+    .info {
+
+        &__title {
+            margin-bottom: 0;
+            font-size: 35px;
+        }
+
+        &__description {
+            font-size: 20px;
+        }
+
+        &__stats {
+            left: 30%;
+        }
+
+        &__alert {
+            font-size: 18px;
+        }
+    }
+}

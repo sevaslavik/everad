@@ -1,0 +1,45 @@
+.price {
+    position: relative;
+    margin-right: 20px;
+    padding: 0 13px;
+    background-color: $color-light;
+    border-radius: 10px;
+    
+
+    &__description {
+        position: absolute;
+        top: -60%;
+        font-size: 14px;
+    }
+
+    &__size {
+        font-size: 34px;
+        line-height: 35px;
+    }
+
+    &-container {
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: center;
+        align-content: stretch;
+        margin-bottom: 15px;
+    }
+}
+
+.transparent {
+    font-weight: 300;
+    background-color: transparent;  
+}
+
+.yellow {
+    font-weight: 700;
+    background-color: $color-yeloow;
+}
+
+.rectagle {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+}

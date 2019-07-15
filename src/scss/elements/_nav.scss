@@ -1,0 +1,33 @@
+.nav {
+    
+    
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        list-style: none;
+    }
+
+    &__img {
+        
+    }
+
+    &__link {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        list-style: none;
+        font-family: $roboto-font;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 14px;
+        text-align: center;
+        color: $color-dark;
+    }
+}

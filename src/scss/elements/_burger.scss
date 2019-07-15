@@ -1,0 +1,30 @@
+.burger {
+    visibility: hidden;
+    position: fixed;
+    right: 0;
+    padding: 0 15px;
+    font-size: 30px;
+    border: none;
+    color: $color-white;
+    background-color: $color-dark;
+    z-index: 50;
+
+    &-menu {
+        display: none;
+        position: fixed;
+        top: 45px;
+        left: 0;
+        z-index: 40;
+    }
+
+    &-link {
+        display: block;
+        width: 375px;
+        margin: 0;
+        padding: 15px 5px;
+        font-size: 20px;
+        background-color: $color-dark;
+        color: $color-laggon;
+        border-top: 2px solid $color-orange;
+    }
+}

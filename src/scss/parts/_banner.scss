@@ -1,0 +1,31 @@
+.banner {
+    background: url('../img/Bg.jpg') no-repeat center / cover;
+
+    &-image{
+        position: absolute;
+        top: -15%;
+        left: -5%;
+        
+    }
+
+    &__title {
+        font-size: 44px;
+        font-weight: 900;
+    }
+
+    &__description {
+        font-size: 34px;
+        font-weight: 700;
+
+    }
+}
+
+.green {
+    border-bottom: 5px solid $color-green;
+}
+
+.red {
+    border-bottom: 5px solid $color-orange;
+}
+
+

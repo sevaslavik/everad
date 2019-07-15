@@ -1,0 +1,96 @@
+.info {
+    font-family: $roboto-font;
+    text-align: center;
+    
+    & > .container > .logo {
+        margin: 0;
+        margin-bottom: 44px;
+        padding-top: 145px;
+    }
+
+    &__title {
+        margin-bottom: 50px;
+        font-size: 48px;
+        font-weight: 800;
+    }
+
+    &__description {
+        margin-bottom: 53px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &-box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 31px;
+
+        &__container {
+            position: absolute;
+            top: -10%;
+            left: -5%;
+        }
+
+        &__description {
+            text-align: left;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        &__photo {
+            margin-right: 20px;
+        }
+
+        &-number {
+            position: absolute;
+            top: 9%;
+            right: -7%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            background-color: $color-orange;
+            color: $color-white;
+            border-radius: 50%;
+
+            &__description {
+                font-size: 30px;
+            }
+        }
+
+        &-description {
+            margin-bottom: 75px;
+            text-align: left;
+            font-size: 18px;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 50px;
+                height: 3px;
+                margin-bottom: 20px;
+                background-color: $color-laggon;
+            }
+        }
+    }
+
+    &__stats {
+        position: absolute;
+        top: -10%;
+        left: 45%;
+        padding: 0 50px;
+        background-color: $color-white;
+    }
+    
+    &__alert {
+        display: inline-block;
+        padding: 40px;
+        padding-bottom: 30px;
+        font-size: 22px;
+        border: 3px solid $color-pink;
+        border-radius: 10px;
+    }
+}

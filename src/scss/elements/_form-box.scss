@@ -1,0 +1,94 @@
+.form {
+
+    &-box {
+        display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: flex-start;
+	    align-items: center;
+	    align-content: stretch;
+        border: 7px solid $color-green;
+        border-radius: 15px;
+        background-color: $color-white;
+
+        &__description {
+            display: flex;
+	        flex-direction: column;
+	        flex-wrap: nowrap;
+	        justify-content: flex-start;
+	        align-items: center;
+            align-content: stretch;
+            margin-bottom: 40px;
+            padding-top: 48px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 20px;
+        }
+
+        &__regular {
+            font-weight: 400;
+        }
+
+        &__medium {
+            font-weight: 600;
+            color: $color-orange;
+        }
+    }
+
+    &-container {
+        position: relative;
+
+        &__img {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+        }
+
+        &__input {
+            margin-bottom: 15px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 53px;
+            border: none;
+            border-radius: 40px;
+            background-color: $color-light;
+        }
+    } 
+}
+
+.decoration {
+    position: absolute;
+    top: -7px;
+    padding: 15px;
+    padding-top: 5px;
+    background-color: $color-light;
+    border: 7px solid $color-green;
+    border-radius: 15px;
+    border-top: none;
+}
+
+.description {
+    margin-bottom: 19px;
+    padding-top: 19px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+
+    &__green {
+        font-weight: 600;
+        color: $color-green;
+    }
+}
+
+.save {
+    width: 263px;
+    padding: 16px 0;
+    text-align: center;
+    background-color: $color-light;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    &__description {
+        margin-left: 13px;
+    }
+}
